@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(215, 250, 217);
+}
+.votes{
+    width: 350px;
+    margin: auto;
+    padding-top: 90px;
+    margin-top: 80px;
+    padding-bottom: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.counter{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.counter h1{
+    color: rgb(183, 0, 255);
+    text-align: center;
+    padding: 50px 0px 20px opx;
+}
+.display{
+    background-color: rgb(200, 245, 179);
+    box-shadow: rgba(50, 95, 65, 0.26) 0px 50px 100px -20px, rgba(0, 0, 0, 0.377) 0px 30px 60px -30px, rgba(10, 64, 64, 0.35) 0px -2px 6px 0px inset;
+    font-weight: bolder;
+    font-size: xx-large;
+    width: 300px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: rgb(195, 43, 226);
+}
+.btn{
+    background-color: rgb(0, 139, 53);
+    color: bisque;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    padding: 10px 22px;
+    margin-top: 35px;
+}
+.i{
+   color: blue;
+}
+.button:hover{
+    background-color: blueviolet;
+}
+
+@media only screen and (max-width: 456px){
+    .votes{
+        width: 100%;
+    }
+}
